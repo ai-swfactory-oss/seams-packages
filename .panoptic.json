@@ -1,4 +1,9 @@
 {
   "version": 4,
-  "defaultBranch": "main"
+  "defaultBranch": "main",
+  "guard": {},
+  "packages": {
+    "@ai-swfactory-oss/seams-npm-registry": { "kind": "sdk" },
+    "@ai-swfactory-oss/seams-pkg-manager": { "kind": "sdk" }
+  }
 }
