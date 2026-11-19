@@ -2,7 +2,7 @@
 
 Seams for the npm ecosystem: package managers and the npm registry. Each seam is an SDK that puts a typed boundary in front of an external system, with a fake under `./testing` for tests.
 
-The code arrives by migration from `ai-swfactory/seams`; until then each package is a guarded skeleton.
+This repository holds only the guarded skeleton so far: `createPackageManager()` returns a package manager whose `listInstalled()` lists no packages, and `createNpmRegistry()` returns a registry whose `versionsOf(name)` reads no versions; each package's `./testing` holds a fake of it.
 
 ## Packages
 
